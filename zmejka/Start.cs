@@ -29,11 +29,11 @@ namespace zmejka
                 key = Console.ReadKey(true);
                 if (key.Key == ConsoleKey.L)
                 {
-                    valik = 151;
+                    valik = 34;
                 }
                 else
                 {
-                    valik = 101;
+                    valik = 26;
                 }
             }
             else if (key.Key == ConsoleKey.Q)
