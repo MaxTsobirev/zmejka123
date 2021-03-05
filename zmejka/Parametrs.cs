@@ -13,11 +13,11 @@ namespace zmejka
         public Parametrs()
         {
             var ind = Directory.GetCurrentDirectory().ToString()
-                .IndexOf("bin", StringComparison.Ordinal);
+                .IndexOf("bin", StringComparison.Ordinal); // Получить индекс папки bin
 
             string binFolder =
                 Directory.GetCurrentDirectory().ToString().Substring(0, ind)
-                    .ToString();
+                    .ToString(); // путь до указанной в инкесе папки
 
             resourcesFolder = binFolder + "Resources\\";
         }
